@@ -1,0 +1,162 @@
+.login-wrapper {
+    display: flex;
+    height: 100dvh;
+}
+
+.login-left {
+    flex: 3;
+    padding: 0 120px;
+}
+
+.login-right {
+    flex: 5;
+    background: #1334B3;
+
+}
+
+
+/* login left */
+.form-wrapper {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.form-heading {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.form-disc {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686687;
+    margin-bottom: 12px;
+}
+
+.inputfield {
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 12px;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+}
+
+.login-btn {
+    width: 100%;
+    background: #1334B3;
+    border-radius: 8px;
+    padding: 16px 24px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.forget-passowrd {
+    margin-top: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #686687;
+}
+
+.form-footer {
+    text-align: center;
+    color: #233244
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+}
+
+
+/* login right */
+
+.box-wrapper {
+    background: #1334B3;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.box {
+    border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    border-bottom: 20px solid transparent;
+    border-Top: 20px solid transparent;
+    border-left: 320px solid #fff;
+  
+    
+}
+
+
+
+.box-info {}
+
+.box-heading {
+    font-weight: 800;
+    font-size: 32px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: #fff;
+
+}
+
+.box-disc {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.005em;
+}

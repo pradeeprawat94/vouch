@@ -1,0 +1,10 @@
+.home-wrapper{
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+}
+
+.success-message{
+color: green;
+font-size: 20px;
+}
